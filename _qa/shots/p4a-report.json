@@ -1,0 +1,21 @@
+{
+  "check": {
+    "schemaVersion": 1,
+    "exportedAtValid": true,
+    "hasData": true,
+    "tasks": 3,
+    "planHistory": 1,
+    "focusDays": 2,
+    "activities": 2,
+    "journals": 2,
+    "weeklyPlans": 1,
+    "weeklyReflections": 1,
+    "monthlyGoals": 1,
+    "monthlyReflections": 1,
+    "hasTaskTitle": true,
+    "hasJournalText": true,
+    "hasCarryoverTask": true
+  },
+  "p4aOK": true,
+  "savedBackup": "/Users/jeremy/WorkBuddy/2026-11-10-11-11-14/personal-dashboard-v1.3/_qa/shots/p4-backup.json"
+}

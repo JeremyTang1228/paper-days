@@ -1,0 +1,66 @@
+{
+  "dates": {
+    "T": "2026-11-10",
+    "Y": "2026-11-09",
+    "D2": "2026-11-08"
+  },
+  "views": {
+    "today": {
+      "title": "11月10日",
+      "count": "5 项未完成",
+      "rows": [
+        "今天·写周报",
+        "今天·买菜",
+        "更早的事",
+        "网站制作",
+        "英语教学准备"
+      ],
+      "duplicateTitles": [],
+      "groups": [
+        "▾ 历史结转 · 3"
+      ],
+      "banner": true
+    },
+    "yesterday": {
+      "title": "11月9日",
+      "count": "2 项未完成",
+      "rows": [
+        "网站制作",
+        "英语教学准备"
+      ],
+      "duplicateTitles": [],
+      "groups": [],
+      "banner": false
+    },
+    "twoDaysAgo": {
+      "title": "11月8日",
+      "count": "1 项未完成",
+      "rows": [
+        "更早的事"
+      ],
+      "duplicateTitles": [],
+      "groups": [],
+      "banner": false
+    },
+    "backToToday": {
+      "title": "11月10日",
+      "count": "5 项未完成",
+      "rows": [
+        "今天·写周报",
+        "今天·买菜",
+        "更早的事",
+        "网站制作",
+        "英语教学准备"
+      ],
+      "duplicateTitles": [],
+      "groups": [
+        "▾ 历史结转 · 3"
+      ],
+      "banner": true
+    }
+  },
+  "menus": {
+    "todayCarry": 1,
+    "yesterday": 1
+  }
+}

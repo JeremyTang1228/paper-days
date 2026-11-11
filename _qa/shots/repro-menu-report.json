@@ -1,0 +1,50 @@
+{
+  "before": {
+    "title": "11月9日",
+    "rows": [
+      "网站制作",
+      "英语教学准备"
+    ],
+    "groups": [],
+    "menus": 0
+  },
+  "results": [
+    {
+      "clickIndex": 0,
+      "clickedRow": 0,
+      "menuCount": 1,
+      "menusIn": [
+        {
+          "row": "网站制作",
+          "group": "待办"
+        }
+      ]
+    },
+    {
+      "clickIndex": 1,
+      "clickedRow": 1,
+      "menuCount": 1,
+      "menusIn": [
+        {
+          "row": "英语教学准备",
+          "group": "待办"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "label": "调整执行日期",
+      "menuCount": 1,
+      "menusInFocus": 1,
+      "hasStepInput": false
+    },
+    {
+      "label": "拆成更小的一步",
+      "menuCount": 1,
+      "menusInFocus": 1,
+      "hasStepInput": true
+    }
+  ],
+  "expectAfterFix": "结转只在今天显示后，历史日期不再重复渲染同一任务；每个三点按钮仍只展开 1 个菜单，首要卡片同理"
+}

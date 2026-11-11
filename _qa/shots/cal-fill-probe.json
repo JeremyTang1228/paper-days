@@ -1,0 +1,112 @@
+{
+  "calendarPopup": {
+    "menu": {
+      "w": 268,
+      "h": 299,
+      "left": 998,
+      "right": 1266,
+      "cssWidth": "268px",
+      "display": "block",
+      "cols": "none",
+      "gap": "normal",
+      "padding": "12px",
+      "boxSizing": "border-box"
+    },
+    "calpick": {
+      "w": 240,
+      "h": 271,
+      "left": 1012,
+      "right": 1252,
+      "cssWidth": "240px",
+      "display": "block",
+      "cols": "none",
+      "gap": "normal",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "ch": {
+      "w": 240,
+      "h": 30,
+      "left": 1012,
+      "right": 1252,
+      "cssWidth": "240px",
+      "display": "flex",
+      "cols": "none",
+      "gap": "6px",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "cw": {
+      "w": 240,
+      "h": 20,
+      "left": 1012,
+      "right": 1252,
+      "cssWidth": "240px",
+      "display": "grid",
+      "cols": "30.8438px 30.8594px 30.8594px 30.8594px 30.8594px 30.8594px 30.8594px",
+      "gap": "4px",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "cg": {
+      "w": 240,
+      "h": 212,
+      "left": 1012,
+      "right": 1252,
+      "cssWidth": "240px",
+      "display": "grid",
+      "cols": "30.8438px 30.8594px 30.8594px 30.8594px 30.8594px 30.8594px 30.8594px",
+      "gap": "4px",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "firstCell": {
+      "w": 31,
+      "h": 32,
+      "left": 1221,
+      "right": 1252,
+      "cssWidth": "30.8594px",
+      "display": "flex",
+      "cols": "none",
+      "gap": "normal",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "lastCell": {
+      "w": 31,
+      "h": 32,
+      "left": 1012,
+      "right": 1043,
+      "cssWidth": "30.8438px",
+      "display": "flex",
+      "cols": "none",
+      "gap": "normal",
+      "padding": "0px",
+      "boxSizing": "border-box"
+    },
+    "cells": 30,
+    "gridRightGap": 14,
+    "lastCellRightGap": 14,
+    "contentBoxW": 240
+  },
+  "reviewGrid": {
+    "mxW": 1096,
+    "mxH": 439,
+    "cell": {
+      "w": 120,
+      "h": 62,
+      "font": "13.68px",
+      "radius": "10px"
+    }
+  },
+  "assertions": {
+    "menuNotGrid": true,
+    "calpickFillsContent": true,
+    "gridFillsCalpick": true,
+    "lastCellNearRightEdge": true,
+    "gridNearRightEdge": true,
+    "dayCellsWideEnough": true,
+    "reviewCellCompact": true
+  },
+  "passAll": true
+}

@@ -1,0 +1,120 @@
+{
+  "pass": 6,
+  "total": 6,
+  "results": [
+    {
+      "width": 390,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": true,
+      "sameRow": false,
+      "tabCount": 4,
+      "tabWidths": [
+        86,
+        86,
+        86,
+        86
+      ],
+      "overflowX": 0
+    },
+    {
+      "width": 430,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": true,
+      "sameRow": false,
+      "tabCount": 4,
+      "tabWidths": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "overflowX": 0
+    },
+    {
+      "width": 600,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": true,
+      "sameRow": false,
+      "tabCount": 4,
+      "tabWidths": [
+        139,
+        139,
+        139,
+        139
+      ],
+      "overflowX": 0
+    },
+    {
+      "width": 768,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": false,
+      "sameRow": true,
+      "tabCount": 4,
+      "tabWidths": [
+        68,
+        68,
+        68,
+        68
+      ],
+      "overflowX": 0
+    },
+    {
+      "width": 1024,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": false,
+      "sameRow": true,
+      "tabCount": 4,
+      "tabWidths": [
+        68,
+        68,
+        68,
+        68
+      ],
+      "overflowX": 0
+    },
+    {
+      "width": 1440,
+      "ok": true,
+      "title": "纸上日子",
+      "text": "纸上日子",
+      "display": "block",
+      "bnWidth": 74,
+      "visible": true,
+      "brandAboveTabs": false,
+      "sameRow": true,
+      "tabCount": 4,
+      "tabWidths": [
+        68,
+        68,
+        68,
+        68
+      ],
+      "overflowX": 0
+    }
+  ]
+}

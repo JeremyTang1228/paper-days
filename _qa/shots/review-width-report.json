@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "appW": 1160,
+      "secW": 1096,
+      "mxW": 1096,
+      "ratio": 1,
+      "rightGap": 0,
+      "visualRightGap": 15,
+      "cell": {
+        "w": 120,
+        "h": 62,
+        "fontSize": "13.68px",
+        "fontFamily": "Nunito"
+      },
+      "dayCells": 30,
+      "cellsOutsideGrid": 0,
+      "overflowX": false,
+      "scrollW": 1440,
+      "viewportW": 1440,
+      "monthLabel": "按月",
+      "screenshot": "review_width_1440.png",
+      "calendarShot": "review_calendar_1440.png"
+    },
+    {
+      "width": 1024,
+      "appW": 1024,
+      "secW": 960,
+      "mxW": 960,
+      "ratio": 1,
+      "rightGap": 0,
+      "visualRightGap": 6,
+      "cell": {
+        "w": 120,
+        "h": 48,
+        "fontSize": "12px",
+        "fontFamily": "Nunito"
+      },
+      "dayCells": 30,
+      "cellsOutsideGrid": 0,
+      "overflowX": false,
+      "scrollW": 1024,
+      "viewportW": 1024,
+      "monthLabel": "按月",
+      "screenshot": "review_width_1024.png",
+      "calendarShot": "review_calendar_1024.png"
+    },
+    {
+      "width": 768,
+      "appW": 768,
+      "secW": 704,
+      "mxW": 704,
+      "ratio": 1,
+      "rightGap": 0,
+      "visualRightGap": 0,
+      "cell": {
+        "w": 97,
+        "h": 48,
+        "fontSize": "12px",
+        "fontFamily": "Nunito"
+      },
+      "dayCells": 30,
+      "cellsOutsideGrid": 0,
+      "overflowX": false,
+      "scrollW": 768,
+      "viewportW": 768,
+      "monthLabel": "按月",
+      "screenshot": "review_width_768.png",
+      "calendarShot": "review_calendar_768.png"
+    },
+    {
+      "width": 390,
+      "appW": 390,
+      "secW": 362,
+      "mxW": 362,
+      "ratio": 1,
+      "rightGap": 0,
+      "visualRightGap": 0,
+      "cell": {
+        "w": 48,
+        "h": 42,
+        "fontSize": "11px",
+        "fontFamily": "Nunito"
+      },
+      "dayCells": 30,
+      "cellsOutsideGrid": 0,
+      "overflowX": false,
+      "scrollW": 390,
+      "viewportW": 390,
+      "monthLabel": "按月",
+      "screenshot": "review_width_390.png",
+      "calendarShot": "review_calendar_390.png"
+    }
+  ],
+  "week": {
+    "secW": 1082,
+    "barW": 980,
+    "rightGap": 54,
+    "overflowX": false
+  },
+  "assertions": {
+    "fills1440": true,
+    "fills1024": true,
+    "fills768": true,
+    "fills390": true,
+    "noOverflow": true,
+    "noCellOutside": true,
+    "noVisualRightGap": true,
+    "compactCells": true,
+    "weekBarStillFull": true
+  },
+  "passAll": true
+}

@@ -1,0 +1,236 @@
+{
+  "p4a": {
+    "check": {
+      "schemaVersion": 1,
+      "exportedAtValid": true,
+      "hasData": true,
+      "tasks": 3,
+      "planHistory": 1,
+      "focusDays": 2,
+      "activities": 2,
+      "journals": 2,
+      "weeklyPlans": 1,
+      "weeklyReflections": 1,
+      "monthlyGoals": 1,
+      "monthlyReflections": 1,
+      "hasTaskTitle": true,
+      "hasJournalText": true,
+      "hasCarryoverTask": true
+    },
+    "p4aOK": true
+  },
+  "checks": [
+    {
+      "name": "主库视图 dayFocus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 dayCarryover",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 dayJournal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 weekPlan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 weekReflection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 monthGoal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 monthReflection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 reviewStats",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 reviewFocusHistory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "主库视图 reviewJournalArchive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "独立测试库已写入干扰数据",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无效文件被拒绝且不改数据 · broken-json.json",
+      "pass": true,
+      "detail": "备份文件无效：Expected property name or '}' in JSON at position 2 (line 1 column 3)。本机数据未做任何改动。"
+    },
+    {
+      "name": "无效文件被拒绝且不改数据 · bad-version.json",
+      "pass": true,
+      "detail": "备份文件无效：备份版本不兼容（需要 1，实际 99）。本机数据未做任何改动。"
+    },
+    {
+      "name": "无效文件被拒绝且不改数据 · bad-structure.json",
+      "pass": true,
+      "detail": "备份文件无效：备份字段 tasks 格式错误。本机数据未做任何改动。"
+    },
+    {
+      "name": "恢复前显示覆盖风险确认",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "未确认前不覆盖数据",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "取消后不覆盖数据",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后各表记录数与备份一致",
+      "pass": true,
+      "detail": "{\"tasks\":3,\"planHistory\":1,\"dailyFocus\":2,\"activities\":2,\"journals\":2,\"weeklyPlans\":1,\"monthlyGoals\":1}"
+    },
+    {
+      "name": "干扰数据已被完整清除",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后任务与感想原文一致",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后历史首要任务与计划变更保留",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 dayFocus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 dayCarryover",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 dayJournal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 weekPlan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 weekReflection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 monthGoal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 monthReflection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 reviewStats",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 reviewFocusHistory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后视图 reviewJournalArchive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "恢复后统计与主库一致",
+      "pass": true,
+      "detail": "0 / 2 首要任务完成 已发生日期（含今天）中，首要任务当天完成数 / 已设置首要任务的天数；今天未完成也计入分母，提 vs 0 / 2 首要任务完成 已发生日期（含今天）中，首要任务当天完成数 / 已设置首要任务的天数；今天未完成也计入分母，提"
+    },
+    {
+      "name": "刷新时出现轻量加载占位",
+      "pass": true,
+      "detail": "{\"saw\":true,\"clean\":true,\"gone\":true}"
+    },
+    {
+      "name": "加载期间不渲染空数据视图",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "数据就绪后加载占位消失",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "views": {
+    "before": {
+      "dayFocus": true,
+      "dayCarryover": true,
+      "dayJournal": true,
+      "weekPlan": true,
+      "weekReflection": true,
+      "monthGoal": true,
+      "monthReflection": true,
+      "reviewStats": true,
+      "reviewFocusHistory": true,
+      "reviewJournalArchive": true
+    },
+    "after": {
+      "dayFocus": true,
+      "dayCarryover": true,
+      "dayJournal": true,
+      "weekPlan": true,
+      "weekReflection": true,
+      "monthGoal": true,
+      "monthReflection": true,
+      "reviewStats": true,
+      "reviewFocusHistory": true,
+      "reviewJournalArchive": true
+    }
+  },
+  "issues": [],
+  "statsBefore": "0 / 2\n首要任务完成\n已发生日期（含今天）中，首要任务当天完成数 / 已设置首要任务的天数；今天未完成也计入分母，提前或后来完成都不算当天\n1 / 3\n计划任务完成\n本期已到日期的计划任务中，截至11月10日已完成；结转任务只算一次，已取消的任务仍计入历史计划事实。期内实际完成共 1 项（含此前计划、后来结转完成的）\n2 天\n写了每日感想\n按感想原文的日期统计，不改写用户文字",
+  "statsAfter": "0 / 2\n首要任务完成\n已发生日期（含今天）中，首要任务当天完成数 / 已设置首要任务的天数；今天未完成也计入分母，提前或后来完成都不算当天\n1 / 3\n计划任务完成\n本期已到日期的计划任务中，截至11月10日已完成；结转任务只算一次，已取消的任务仍计入历史计划事实。期内实际完成共 1 项（含此前计划、后来结转完成的）\n2 天\n写了每日感想\n按感想原文的日期统计，不改写用户文字",
+  "loading": {
+    "saw": true,
+    "clean": true,
+    "gone": true
+  },
+  "pass": 35,
+  "total": 35,
+  "ok": true
+}

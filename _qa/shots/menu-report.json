@@ -1,0 +1,1542 @@
+{
+  "sample": [
+    {
+      "id": "day1440-todo",
+      "width": 1440,
+      "height": 1200,
+      "view": 0,
+      "sel": ".cols > .panel:first-child .row .mo",
+      "label": "每日 / 待办第一条 / 1440",
+      "rect": {
+        "x": 498,
+        "y": 491,
+        "w": 186,
+        "h": 219,
+        "bottom": 709,
+        "right": 684
+      },
+      "viewport": {
+        "w": 1440,
+        "h": 1200
+      },
+      "scroll": {
+        "y": 354,
+        "height": 1627,
+        "max": 427
+      },
+      "menuZ": "9",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 591,
+          "y": 499,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "中部",
+          "x": 591,
+          "y": 600,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "底部",
+          "x": 591,
+          "y": 701,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 591,
+          "y": 519,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 591,
+          "y": 559,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:改到明天",
+          "x": 591,
+          "y": 600,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:搁置",
+          "x": 591,
+          "y": 640,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:取消任务",
+          "x": 591,
+          "y": 681,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "panel",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "cols",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_day1440-todo.png"
+    },
+    {
+      "id": "day1440-carry",
+      "width": 1440,
+      "height": 1200,
+      "view": 0,
+      "sel": ".grp .row .mo",
+      "label": "每日 / 历史结转 / 1440",
+      "rect": {
+        "x": 498,
+        "y": 610,
+        "w": 186,
+        "h": 219,
+        "bottom": 828,
+        "right": 684
+      },
+      "viewport": {
+        "w": 1440,
+        "h": 1200
+      },
+      "scroll": {
+        "y": 427,
+        "height": 1627,
+        "max": 427
+      },
+      "menuZ": "9",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 591,
+          "y": 618,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "中部",
+          "x": 591,
+          "y": 719,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "底部",
+          "x": 591,
+          "y": 820,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 591,
+          "y": 638,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 591,
+          "y": 678,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:改到明天",
+          "x": 591,
+          "y": 719,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:搁置",
+          "x": 591,
+          "y": 759,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:取消任务",
+          "x": 591,
+          "y": 800,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "grp",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "panel",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "cols",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_day1440-carry.png"
+    },
+    {
+      "id": "day390-todo",
+      "width": 390,
+      "height": 844,
+      "view": 0,
+      "sel": ".cols > .panel:first-child .row .mo",
+      "label": "每日 / 待办第一条 / 390",
+      "rect": {
+        "x": 166,
+        "y": 313,
+        "w": 186,
+        "h": 219,
+        "bottom": 532,
+        "right": 352
+      },
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "scroll": {
+        "y": 693,
+        "height": 2011,
+        "max": 1167
+      },
+      "menuZ": "9",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 259,
+          "y": 321,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "中部",
+          "x": 259,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "底部",
+          "x": 259,
+          "y": 524,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 259,
+          "y": 341,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 259,
+          "y": 382,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:改到明天",
+          "x": 259,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:搁置",
+          "x": 259,
+          "y": 463,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:取消任务",
+          "x": 259,
+          "y": 503,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "panel",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "cols",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_day390-todo.png"
+    },
+    {
+      "id": "day390-carry",
+      "width": 390,
+      "height": 844,
+      "view": 0,
+      "sel": ".grp .row .mo",
+      "label": "每日 / 历史结转 / 390",
+      "rect": {
+        "x": 166,
+        "y": 313,
+        "w": 186,
+        "h": 219,
+        "bottom": 532,
+        "right": 352
+      },
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "scroll": {
+        "y": 885,
+        "height": 2011,
+        "max": 1167
+      },
+      "menuZ": "9",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 259,
+          "y": 321,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "中部",
+          "x": 259,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "底部",
+          "x": 259,
+          "y": 524,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 259,
+          "y": 341,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 259,
+          "y": 382,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:改到明天",
+          "x": 259,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:搁置",
+          "x": 259,
+          "y": 463,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        },
+        {
+          "name": "button:取消任务",
+          "x": 259,
+          "y": 503,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "panel"
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "grp",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "panel",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "cols",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_day390-carry.png"
+    },
+    {
+      "id": "week1440",
+      "width": 1440,
+      "height": 1200,
+      "view": 1,
+      "sel": ".dt .row .mo",
+      "label": "每周 / 某天任务 / 1440",
+      "rect": {
+        "x": 415,
+        "y": 488,
+        "w": 186,
+        "h": 219,
+        "bottom": 707,
+        "right": 601
+      },
+      "viewport": {
+        "w": 1440,
+        "h": 1200
+      },
+      "scroll": {
+        "y": 0,
+        "height": 2090,
+        "max": 890
+      },
+      "menuZ": "20",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 508,
+          "y": 496,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "中部",
+          "x": 508,
+          "y": 597,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "底部",
+          "x": 508,
+          "y": 699,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "col "
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 508,
+          "y": 516,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 508,
+          "y": 557,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:改到明天",
+          "x": 508,
+          "y": 597,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:搁置",
+          "x": 508,
+          "y": 638,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:取消任务",
+          "x": 508,
+          "y": 678,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "dt",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "col ",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "wk",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_week1440.png"
+    },
+    {
+      "id": "week390",
+      "width": 390,
+      "height": 844,
+      "view": 1,
+      "sel": ".dt .row .mo",
+      "label": "每周 / 某天任务 / 390",
+      "rect": {
+        "x": 179,
+        "y": 313,
+        "w": 186,
+        "h": 219,
+        "bottom": 531,
+        "right": 365
+      },
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "scroll": {
+        "y": 297,
+        "height": 2573,
+        "max": 1729
+      },
+      "menuZ": "20",
+      "itemCount": 5,
+      "hits": [
+        {
+          "name": "顶部",
+          "x": 272,
+          "y": 321,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "中部",
+          "x": 272,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "底部",
+          "x": 272,
+          "y": 523,
+          "inside": true,
+          "hit": "menu",
+          "blocker": "col "
+        },
+        {
+          "name": "button:设为今日首要",
+          "x": 272,
+          "y": 341,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:最小行动…",
+          "x": 272,
+          "y": 382,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:改到明天",
+          "x": 272,
+          "y": 422,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:搁置",
+          "x": 272,
+          "y": 463,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        },
+        {
+          "name": "button:取消任务",
+          "x": 272,
+          "y": 503,
+          "inside": true,
+          "hit": "BUTTON",
+          "blocker": "col "
+        }
+      ],
+      "blocked": [],
+      "chain": [
+        {
+          "el": "row ",
+          "zIndex": "auto",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "dt",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "col ",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "wk",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "fi",
+          "fill": "backwards",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "fx",
+          "zIndex": "1",
+          "position": "relative",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "DIV",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "BODY",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "clipsBottom": false,
+          "clipsRight": false
+        },
+        {
+          "el": "HTML",
+          "zIndex": "auto",
+          "position": "static",
+          "transform": "none",
+          "opacity": "1",
+          "animation": "none",
+          "fill": "none",
+          "isolation": "auto",
+          "willChange": "auto",
+          "filter": "none",
+          "overflowX": "visible",
+          "overflowY": "visible",
+          "clipsBottom": false,
+          "clipsRight": false
+        }
+      ],
+      "clippedBy": [],
+      "offViewportBottom": false,
+      "offViewportRight": false,
+      "file": "menu_week390.png"
+    }
+  ],
+  "all": [
+    {
+      "view": "每日 1440",
+      "index": 0,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 1440",
+      "index": 1,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 1440",
+      "index": 2,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 1440",
+      "index": "子菜单",
+      "triggers": 3,
+      "blocked": 0,
+      "points": 4,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 1440",
+      "index": "数据管理面板",
+      "height": 281,
+      "inside": [
+        true,
+        true
+      ]
+    },
+    {
+      "view": "每日 390",
+      "index": 0,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 390",
+      "index": 1,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 390",
+      "index": 2,
+      "triggers": 3,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 390",
+      "index": "子菜单",
+      "triggers": 3,
+      "blocked": 0,
+      "points": 4,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每日 390",
+      "index": "数据管理面板",
+      "height": 367,
+      "inside": [
+        true,
+        true
+      ]
+    },
+    {
+      "view": "每周 1440",
+      "index": 0,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 1440",
+      "index": 1,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 1440",
+      "index": 2,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 1440",
+      "index": 3,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 1440",
+      "index": "子菜单",
+      "triggers": 4,
+      "blocked": 0,
+      "points": 4,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 1440",
+      "index": "数据管理面板",
+      "height": 281,
+      "inside": [
+        true,
+        true
+      ]
+    },
+    {
+      "view": "每周 390",
+      "index": 0,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 390",
+      "index": 1,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 390",
+      "index": 2,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 390",
+      "index": 3,
+      "triggers": 4,
+      "blocked": 0,
+      "points": 8,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 390",
+      "index": "子菜单",
+      "triggers": 4,
+      "blocked": 0,
+      "points": 4,
+      "clippedBy": [],
+      "error": null
+    },
+    {
+      "view": "每周 390",
+      "index": "数据管理面板",
+      "height": 367,
+      "inside": [
+        true,
+        true
+      ]
+    }
+  ],
+  "totalBlocked": 0,
+  "totalClipped": 0
+}

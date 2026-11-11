@@ -1,0 +1,43 @@
+{
+  "TITLE": "P1 持久化验收 · 刷新后我依然存在",
+  "JOURNAL": "这是一段用于验证自动保存的每日感想。\n\n第二行也要完整保留，刷新与关闭重开后都不应该丢失。",
+  "afterAdd": {
+    "found": true,
+    "rows": 1,
+    "toast": ""
+  },
+  "saveState": {
+    "state": "saved",
+    "label": "已保存"
+  },
+  "afterReload": {
+    "taskFound": true,
+    "taskDone": true,
+    "journalMatch": true,
+    "journalLen": 45,
+    "tab": "每日",
+    "h1": "11月10日",
+    "textareas": 1,
+    "rows": 1,
+    "bodyStart": "P\nPersonal Dashboard\n每日\n每周\n每月\n回顾\n周二 · 今天\n11月10日\n今天\n今日的一点光亮 · Daily Reflection\n\n今天没做完的，明天依然可以继续。\n\nWhat you didn't finish today will still be here tomorrow.\n换一句\n收起\n今日首要\nONE THING\n今天最值得推进的一件事是什么？\n待办\n0 项未",
+    "ls": "[]"
+  },
+  "afterReopen": {
+    "taskFound": true,
+    "taskDone": true,
+    "journalMatch": true,
+    "journalLen": 45,
+    "tab": "每日",
+    "h1": "11月10日",
+    "textareas": 1,
+    "rows": 1,
+    "bodyStart": "P\nPersonal Dashboard\n每日\n每周\n每月\n回顾\n周二 · 今天\n11月10日\n今天\n今日的一点光亮 · Daily Reflection\n\n今天没做完的，明天依然可以继续。\n\nWhat you didn't finish today will still be here tomorrow.\n换一句\n收起\n今日首要\nONE THING\n今天最值得推进的一件事是什么？\n待办\n0 项未",
+    "ls": "[]"
+  },
+  "shared": {
+    "reviewHasJournal": true,
+    "reviewHasTask": false,
+    "h1": "11月9日 – 11月15日"
+  },
+  "ok": true
+}

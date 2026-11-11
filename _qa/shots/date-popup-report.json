@@ -1,0 +1,124 @@
+{
+  "dates": {
+    "T": "2026-11-10"
+  },
+  "checks": {
+    "popup": {
+      "menuCount": 1,
+      "isCalendar": true,
+      "texts": [
+        "‹",
+        "›",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "dayCount": 30,
+      "month": "2026年11月",
+      "todayCells": [
+        "2026-11-10"
+      ],
+      "curCells": [
+        "2026-11-10"
+      ],
+      "rect": {
+        "x": 998,
+        "y": 395,
+        "w": 268,
+        "h": 299,
+        "bottom": 694,
+        "right": 1266
+      },
+      "screenshot": "datepopup_1440.png"
+    },
+    "monthNav": {
+      "beforeMonth": "2026年11月",
+      "nextMonth": "2026年12月",
+      "backMonth": "2026年11月",
+      "stillOpen": 1
+    },
+    "pickDate": {
+      "targetDate": "2026-11-09",
+      "dbDate": "2026-11-09",
+      "menusAfter": 0,
+      "toast": "已改期到11月9日"
+    },
+    "outsideClick": {
+      "before": 1,
+      "after": 0
+    },
+    "toggle": {
+      "before": 1,
+      "after": 0
+    },
+    "dateChange": {
+      "before": 1,
+      "after": 0
+    },
+    "viewChange": {
+      "before": 1,
+      "after": 0
+    },
+    "rowMenu": {
+      "texts": [
+        "设为今日首要",
+        "最小行动…",
+        "改到明天",
+        "搁置",
+        "取消任务"
+      ],
+      "hasCalendar": false
+    },
+    "clip_1440": {
+      "rect": {
+        "x": 998,
+        "y": 449,
+        "w": 268,
+        "h": 299
+      },
+      "viewport": {
+        "w": 1440,
+        "h": 1200
+      },
+      "cells": 30,
+      "blocked": [],
+      "offRight": false,
+      "offBottom": false,
+      "screenshot": "datepopup_1440.png"
+    },
+    "clip_390": {
+      "rect": {
+        "x": 106,
+        "y": 273,
+        "w": 268,
+        "h": 299
+      },
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "cells": 30,
+      "blocked": [],
+      "offRight": false,
+      "offBottom": false,
+      "screenshot": "datepopup_390.png"
+    }
+  },
+  "assertions": {
+    "popupIsCalendar": true,
+    "popupOnlyOne": true,
+    "monthNavWorks": true,
+    "pickDatePersists": true,
+    "outsideCloses": true,
+    "toggleCloses": true,
+    "dateChangeCloses": true,
+    "viewChangeCloses": true,
+    "rowMenuUnchanged": true,
+    "noClip1440": true,
+    "noClip390": true
+  },
+  "passAll": true
+}

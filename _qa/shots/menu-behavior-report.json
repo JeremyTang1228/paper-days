@@ -1,0 +1,46 @@
+{
+  "dates": {
+    "T": "2026-11-10",
+    "Y": "2026-11-09",
+    "D2": "2026-11-08"
+  },
+  "checks": {
+    "menuItems": [
+      "设为今日首要",
+      "最小行动…",
+      "改到明天",
+      "搁置",
+      "取消任务"
+    ],
+    "menuOpened": 1,
+    "outsideClick": {
+      "before": 1,
+      "after": 0
+    },
+    "dateChange": {
+      "before": 1,
+      "afterPrev": 0,
+      "afterBack": 0
+    },
+    "viewChange": {
+      "before": 1,
+      "afterWeek": 0
+    },
+    "reschedule": {
+      "before": 1,
+      "after": 0
+    },
+    "datePicker": {
+      "removed": true,
+      "note": "按要求隐藏，无此控件"
+    },
+    "insideClick": {
+      "menuCount": 1,
+      "stepInput": true
+    },
+    "switchRow": {
+      "menuCount": 1,
+      "expandedRows": 1
+    }
+  }
+}
